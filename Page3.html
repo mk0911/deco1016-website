@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ANZ Form - Page 3</title>
+    
+    <!-- HEADER ------------------------------------->
+
+    <div class="web-header"></div>
+
+        <div class="top-container">
+            <div class="anz-link"><a href="index.html"><img src="images/anz_logo.png" style="width: 100px;"></a>
+        </div>
+
+            <div class="text-block">
+                <h4>ANZ Everyday Bank Account</h4>
+            </div>
+    </div>
+
+    <!-- LINKS- ------------------------------------->
+
+    <link rel="stylesheet" href="Styles.css">
+    <script src="nanobar-master/nanobar.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+
+</head>
+<body>
+    
+    <!-- NANOBAR ------------------------------------->
+
+    <div class="nano-text">Your Progress</div>
+    <div class="nanobar" style="width: 20%;"></div>
+
+    <main>
+        <form action="post.html">
+            <h2>Your Details</h2>
+                <p>
+                    Please type your current details into the boxes below.
+                    </br>
+                    This will appear on all of your statements and cards.
+                </p>
+
+            <!-- NAME INPUT ------------------------------------->
+            
+            <div class="form-group">
+                <label for="name">Name</label></div>
+                <div>
+                    <input type="name" id="name" name="name" placeholder="Please enter your full name">
+                </div>
+
+            <!-- EMAIL INPUT ----------------------------------->
+
+            <div class="form-group">
+                <label for="Email">Email</label></div>
+                <div>
+                    <input type="email" id="email" name="email" placeholder="Please enter your email">
+                </div>
+            
+            <!-- ADDRESS INPUT --------------------------------->
+            
+            <div class="form-group">
+                <label for="address">Address</label></div>
+            <div>
+                <input type="address" id="st" name="address" placeholder="Street Address or P.O. Box">
+                <input type="address" id="suburb" name="address" placeholder="Apartment, suite, unit, building, floor">
+                <input type="town" id="town" name="town" placeholder="Town/City">
+                <input type="postcode" id="postcode" name="postcode" placeholder="Postcode">
+            </div>
+
+            <!-- BACK BUTTON --------------------------------->
+
+            <div class="button-link"><a href="Page4.html">What's Next?</a></div>
+        </form>
+    </main>
+    <script src="Script.js"></script>
+    <!-- <script localStorage.setItem("details", JSON.stringify("#name", "#email", "#st", "#suburb')); ></script> -->
+</body>
+
+</html>

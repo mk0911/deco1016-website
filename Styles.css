@@ -1,0 +1,928 @@
+html {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background-color: #f6f7fc;
+}
+
+/* --- Stroke/Line Style ---*/
+
+hr {
+    border-top: px solid #0461a0;
+    border-radius: 2px;
+    width: 60%;
+    margin-top: -230px;
+}
+
+/* --------
+ANZ HEADER
+---------*/
+
+.top-container {
+    margin-top: -80px;
+    margin-left: 125px;
+    padding-left: 0;
+    padding-top: 15px;
+    position: absolute;
+    transition: transform .2s;
+}
+
+/* --- Everyday Bank Account Text ---*/
+
+.text-block {
+    float: right;
+    margin-top: -50px;
+    padding-left: 25px;
+}
+
+.text-block:hover {
+    opacity: 0.95;
+}
+
+.top-container img:hover {
+    transform: scale(1.035);
+}
+
+/* --- Blue Rectangle ---*/
+
+.web-header {
+    position: relative;
+    background-color: #0371a7;
+    box-sizing: border-box;
+    width: 100%;
+    height: 80px;
+}
+
+/* ----------
+TEXT STYLING
+------------*/
+
+/* --- Large White Header ---*/
+
+h1 {
+    color: #f6fafc;
+    text-align: center;
+    font-size: 4em;
+    margin-top: 30px;
+    margin-bottom: -10px;
+    padding: 125px;
+    line-height: 1.25;
+}
+
+h1:hover {
+    opacity: 0.90;
+}
+
+/* --- Small Blue Header ---*/
+
+h2 {
+    color: #0371a7;
+    text-align: left;
+    font-size: 1em;
+    margin-left: 60px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    line-height: 1.25;
+}
+
+h2:hover {
+    transform: translateY(-0.25px);
+    color: rgba(3, 102, 151, 0.85);
+}
+
+/* --- Small Grey Body ---*/
+
+h3 {
+    color: #8b8787;
+    text-align: left;
+    font-size: .65em;
+    margin-left: 60px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    line-height: 1.25;
+}
+
+h4 {
+    color: white;
+}
+
+/* --- White Body ---*/
+
+h5 {
+    color: #ceced3;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 80px;
+    font-weight: normal;
+}
+
+/* --- Large White Header Page 2 ---*/
+
+h6 {
+    color: #f6fafc;
+    text-align: center;
+    font-size: 4em;
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 170px;
+    line-height: 1.25;
+    
+  
+}
+
+h6:hover {
+    opacity: 0.90;
+}
+
+main {
+    color: #5292db;
+    text-align: center;
+    font-size: 2em;
+    margin: auto;
+    width: 60%;
+    max-width: 1000px;
+}
+
+p {
+    color: #8b8787;
+    font-size: 0.45em;
+    text-align: left;
+    margin-left: 60px;
+    padding-bottom: 20px;
+    max-width: 70%;
+    line-height: 1.5em;
+}
+
+/* ----------
+LINK STYLING
+------------*/
+
+/* --- Standard Button ---*/
+
+.button-link a:link,
+.button-link a:visited {
+    background-color: #50b2e1;
+    color: #ffffff;
+    padding: 14px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button-link a:hover,
+.button-link a:active {
+    background-color: #44c8f8;
+    width: 500px;
+}
+
+.button-link a:link,
+.button-link a:visited,
+.button-link a:hover,
+.button-link a:active {
+    font-size: 0.55em;
+    margin: 60px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    width: 510px;
+}
+
+/* --- Option Button ---*/
+
+.option-button a:link,
+.option-button a:visited {
+    background-color: #6bd7ff;
+    color: #ffffff;
+    padding: 14px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.option-button a:hover,
+.option-button a:active {
+    background-color: #91dcff;
+    width: 500px;
+}
+
+.option-button a:link,
+.option-button a:visited,
+.option-button a:hover,
+.option-button a:active {
+    font-size: 0.55em;
+    margin: 60px;
+    width: 510px;
+    margin-bottom: 10px;
+}
+
+/* --- Light Button ---*/
+
+.light-button a:link,
+.light-button a:visited {
+    background-color: #a4d7ee;
+    color: #213258;
+    padding: 14px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.light-button a:hover,
+.light-button a:active {
+    background-color: #c0e1f0;
+    width: 500px;
+}
+
+.light-button a:link,
+.light-button a:visited,
+.light-button a:hover,
+.light-button a:active {
+    font-size: 0.55em;
+    width: 500px;
+    margin-top: 10px;
+}
+
+/* --- Back Button ---*/
+
+.back-button a:link,
+.back-button a:visited {
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.back-button a:hover,
+.back-button a:active {
+    opacity: 0.5;
+    transform: translateX(-1.0px);
+}
+
+.back-button a:link,
+.back-button a:visited,
+.back-button a:hover,
+.back-button a:active {
+    margin-left: -70px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    float: left;
+}
+
+/* --- ANZ Logo Button ---*/
+
+.anz-link a {
+    width: 20px;
+    padding: 15px;
+    text-transform: capitalize;
+}
+
+.anz-link a:link,
+.anz-link a:visited {
+    background-color: none;
+}
+
+.anz-link a:hover,
+.anz-link a:active {
+    background-color: none;
+}
+
+.anz-link a:link,
+.anz-link a:visited,
+.anz-link a:hover,
+.anz-link a:active {
+    margin-left: -100px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    width: 20px;
+}
+
+/* --- Home Button ---*/
+
+.home-button a:link,
+.home-button a:visited {
+    background-color: #50b2e1;
+    color: #ffffff;
+    padding: 14px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.home-button a:hover,
+.home-button a:active {
+    background-color: #6bd7ff;
+}
+
+.home-button a:link,
+.home-button a:visited,
+.home-button a:hover,
+.home-button a:active {
+    font-size: 0.55em;
+    width: 500px;
+    margin-top: 20px;
+}
+
+/* --- Bank Button ---*/
+
+.bank-button a:link,
+.bank-button a:visited {
+    background-color: #6bd7ff;
+    color: #ffffff;
+    padding: 14px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.bank-button a:hover,
+.bank-button a:active {
+    background-color: #91dcff;
+}
+
+.bank-button a:link,
+.bank-button a:visited,
+.bank-button a:hover,
+.bank-button a:active {
+    font-size: 0.55em;
+    margin-top: -154px;
+    width: 265px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    float: right;
+}
+
+/* ----------
+FORM STYLING
+------------*/
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* --- Generic Input ---*/
+
+input {
+    width: 500px;
+    margin: 10px;
+    margin-left: 60px;
+    padding: 15px;
+    border-style: none;
+    background-color: #d6f1ff;
+    color: #0461a0;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .05);
+}
+
+input:hover,
+input#town:hover,
+input#postcode:hover,
+input#license-no:hover,
+input#medicare-no:hover,
+input#medi-ref-no:hover,
+input#m-initial:hover,
+input#DD:hover,
+input#MM:hover,
+input#YYYY:hover {
+    box-shadow: 2px 8px 45px rgba(0, 0, 0, .1);
+}
+
+/* --- Select Identity Verification (pg4) Input ---*/
+
+input#checkbox {
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .05);
+    background-color: #0c6ab8;
+    padding: 100px;
+    margin-left: 60px;
+    display: block;
+    margin-top: -28px;
+    float: left;
+}
+
+.form-group label#choose-identity {
+    font-size: 0.5em;
+    background-color: #d6f1ff;
+    color: #8b8787;
+    padding: 14px 10px;
+    text-align: left;
+    font-size: .4em;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 100px;
+    max-width: 470px;
+    margin-bottom: 1px;
+    margin-top: 30px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 100px;
+}
+
+.form-group label#choose-identity:hover {
+    box-shadow: 2px 8px 45px rgba(0, 0, 0, .05);
+}
+
+/* --- Your Details (pg3), Identity Verification (pg5) Input ---*/
+
+input#town,
+input#license-no {
+    width: 360px;
+    margin: 10px;
+    margin-left: 60px;
+    border-style: none;
+    background-color: #d6f1ff;
+    color: #0461a0;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .05);
+}
+
+input#postcode,
+input#state {
+    width: 90px;
+    margin: 10px;
+    float: right;
+    position: relative;
+    border-style: none;
+    background-color: #d6f1ff;
+    color: #0461a0;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .05);
+}
+
+/* --- Identity Verification (pg5) Input ---*/
+
+input#medicare-no {
+    width: 240px;
+    margin: 10px;
+    margin-left: 60px;
+    border-style: none;
+    background-color: #d6f1ff;
+    color: #0461a0;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .05);
+}
+
+input#medi-ref-no {
+    width: 80px;
+    margin: 10px;
+    float: right;
+    position: relative;
+    border-style: none;
+    background-color: #d6f1ff;
+    color: #0461a0;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .05);
+}
+
+input#m-initial {
+    width: 80px;
+    margin: 10px;
+    float: right;
+    position: relative;
+    border-style: none;
+    background-color: #d6f1ff;
+    color: #0461a0;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .05);
+}
+
+input#DD {
+    width: 20px;
+    margin: 10px;
+    margin-left: 60px;
+    float: left;
+    position: relative;
+    border-style: none;
+    background-color: #d6f1ff;
+    color: #0461a0;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .05);
+}
+
+input#MM {
+    width: 20px;
+    margin: 10px;
+    float: left;
+    position: relative;
+    border-style: none;
+    background-color: #d6f1ff;
+    color: #0461a0;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .05);
+}
+
+input#YYYY {
+    width: 30px;
+    margin: 10px;
+    float: left;
+    position: relative;
+    border-style: none;
+    background-color: #d6f1ff;
+    color: #0461a0;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .05);
+}
+
+/* --- Overall Style ---*/
+
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.form-group label {
+    font-size: 0.5em;
+    background-color: #50b2e1;
+    color: #ffffff;
+    padding: 10px 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 60px;
+    max-width: 180px;
+    margin-bottom: 1px;
+    margin-top: 30px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 100px;
+}
+
+.form-group label:hover {
+    transform: translateY(-0.5px);
+}
+
+/* -------------
+NANOBAR STYLING
+---------------*/
+
+.nanobar {
+    background-image: linear-gradient(to right, #50c5fc, #0371a7, #085391);
+    border-radius: 4px;
+    height: 7px;
+    margin-top: 0px;
+    margin-left: 125px;
+}
+
+.nanobar:hover {
+    background-image: linear-gradient(to right, #7cd1f8, #0d8ac9, #0c6ab8);
+}
+
+.nano-text {
+    color: #ceced3;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 125px;
+    text-align: left;
+    font-size: .75em;
+}
+
+.nano-text:hover {
+    color: #c1c1c2;
+}
+
+/* ----------
+PAGE 6 STYLING
+------------*/
+
+/* --- Page 6 Image and Text ---*/
+
+.account-box {
+    width: 300px;
+    height: 105px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 12px;
+    padding-left: 30px;
+    background-color: #50b2e1;
+    color: #0461a0;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .05);
+}
+
+.account-box:hover {
+    box-shadow: 2px 8px 45px rgba(0, 0, 0, .1);
+}
+
+.account-box h2 {
+    color: #faf8f8;
+    float: left;
+    font-size: 1em;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 12px;
+}
+
+.account-box h3 {
+    float: left;
+    color: #054579;
+    text-align: left;
+    font-size: .35em;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 1.25;
+}
+
+.bank-card {
+    float: right;
+    margin-top: 12px;
+    padding-right: 10px;
+}
+
+.bank-card:hover {
+    opacity: 0.95;
+    transform: translateY(-0.5px);
+}
+
+.everyday-acc-header {
+    width: 530px;
+    height: 60px;
+    margin-top: 40px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    background-color: #0461a0;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .05);
+}
+
+.everyday-acc-header:hover {
+    background-color: #066eb3;
+
+}
+
+.everyday-acc-header h4 {
+    float: left;
+    padding-left: 20px;
+    font-size: .5em;
+}
+
+.account-features {
+    width: 530px;
+    height: 200px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+    background-color: #ffffff;
+    color: #0461a0;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .05);
+}
+
+.account-features ul {
+    padding-top:25px;
+    text-align: left;
+    margin-left: 20px;
+    color: #8b8787;
+    font-size: 0.45em;
+    text-align: left;
+    line-height: 2.5em;
+}
+/* ----------
+PAGE 2 STYLING
+------------*/
+
+/* --- Page 2 Image ---*/
+
+.id-needs,
+.account {
+    margin-bottom: 20px;
+    padding: 60px;
+    text-align: center;
+    position: relative;
+}
+
+.id-needs:hover,
+.account:hover {
+    opacity: 0.90;
+}
+
+/* ------------------------
+ONLINE BANKING PAGE STYLING
+--------------------------*/
+
+/* --- Light Blue Bar, Home Button ---*/
+
+.banking-bar {
+    position: relative;
+    background-color: #d6f1ff;
+    box-sizing: border-box;
+    margin-top: 13px;
+    margin-left: 60px;
+    margin-bottom: 13px;
+    width: 500px;
+    height: 70px;
+}
+
+.home-link img {
+    position: relative;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.home-link img:hover {
+    transform: scale(1.035);
+}
+
+/* --- Blue Box ---*/
+
+.welcome-user {
+    background-color: #0461a0;
+    /* background-image: linear-gradient(to left, #10182d, #053a64, #0371a7); */
+    margin-left: 60px;
+    width: 500px;
+    height: 300px;
+}
+
+.welcome-text {
+    font-size: 1.75em;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    padding-left: 175px;
+}
+
+.welcome-text:hover {
+    transform: translateY(-0.75px);
+}
+
+/* --- Blue Header---*/
+
+.banking-header-bar {
+    width: 500px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    display: inline-block;
+    background-color: #50b2e1;
+    color: #0461a0;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .05);
+}
+
+.banking-header-bar:hover {
+    background-color: #55b6e2;
+
+}
+
+.banking-header-text {
+    padding-left: 20px;
+    padding-top: -10px;
+}
+
+/* --- White Boxes---*/
+
+.account-info {
+    width: 350px;
+    height: 350px;
+    margin-top: 12px;
+    display: inline-block;
+    background-color: #ffffff;
+    color: #0461a0;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .05);
+}
+
+.account-value {
+    width: 135px;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    background-color: #ffffff;
+    color: #0461a0;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .05);
+}
+
+.transaction-info {
+    width: 500px;
+    height: 150px;
+    margin-top: 12px;
+    display: inline-block;
+    background-color: #ffffff;
+    color: #0461a0;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .05);
+    margin-bottom: 100px;
+}
+
+/* --- Text Inside Boxes ---*/
+
+.account-info h2,
+.account-value h2,
+.transaction-info h2 {
+    float: left;
+    color: #0371a7;
+    text-align: left;
+    font-size: 1em;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.account-info h3,
+.account-value h3,
+.transaction-info h3 {
+    float: left;
+    color: #8b8787;
+    text-align: left;
+    font-size: .75em;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    line-height: 1.25;
+}
+
+.transaction-info h4 {
+    float: right;
+    color: #8b8787;
+    text-align: left;
+    font-size: .75em;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    line-height: 1.25;
+}
+
+/* --- Line/Stroke Style Inside Boxes ---*/
+
+.account-info hr {
+    float: left;
+    border-top: 1px solid #0461a0;
+    border-radius: 2px;
+    width: 310px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.account-value hr {
+    float: left;
+    border-top: 1px solid #0461a0;
+    border-radius: 2px;
+    width: 95px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.transaction-info hr {
+    float: left;
+    border-top: 1px solid #0461a0;
+    border-radius: 2px;
+    width: 458px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.account-info h2:hover,
+.account-value h2:hover,
+.transaction-info h2:hover,
+.account-info h3:hover,
+.account-value h3:hover,
+.transaction-info h3:hover {
+    opacity: 0.85;
+}
+
+/* --- Logout Button ---*/
+
+.logout-link a:link,
+.logout-link a:visited {
+    background-color: #a1e1ff;
+    color: #10182d;
+    padding: 12px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.logout-link a:hover,
+.logout-link a:active {
+    background-color: #94ddff;
+}
+
+.logout-link a:link,
+.logout-link a:visited,
+.logoutlink a:hover,
+.logoutlink a:active {
+    float: right;
+    font-size: 0.65em;
+    margin-top: -42px;
+    margin-right: 20px;
+    width: 54px;
+}
+
+/* --- Make Tranaction Link ---*/
+
+.add-money-link a:link,
+.add-money-link a:visited {
+    background-color: #ffd06a;
+    color: #10182d;
+    padding: 20px 0px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+}
+
+.add-money-link a:hover,
+.add-money a:active {
+    background-color: #fdc72f;
+    transform: translateY(-1.5px)
+}
+
+.add-money-link a:link,
+.add-money-link a:visited,
+.add-money-link a:hover,
+.add-money-link a:active {
+    float: left;
+    font-weight: bold;
+    font-size: 0.85em;
+    margin-top: 80px;
+    margin-left: -182px;
+    width: 170px;
+    line-height: 20px;
+}
